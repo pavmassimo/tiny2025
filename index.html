@@ -20,8 +20,12 @@
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
                         <li class="nav-item"><a class="nav-link" href="#callforpapers">Call for papers</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#organizers">Organizers</a></li>
-                        <li class="nav-item"><a href="btn btn-primary">Submit a paper</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#importantdates">Important dates</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#program">Program</a></li>
+                        <!-- Keynote speaker -->
+                        <li class="nav-item"><a class="nav-link" href="#programcommittee">Program committee members</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#organizers">Organizers</a></li> <!-- Meglio solo contacts? -->
+                        <!-- <li class="nav-item"><a class="btn btn-sm btn-primary" href="">Submit a paper</a></li> -->
                     </ul>
                 </div>
             </div>
@@ -30,8 +34,8 @@
         <header class="bg-primary bg-gradient text-white">
             <div class="container px-4 text-center">
                 <h1 class="fw-bolder">Knowledge-Guided Machine learning</h1>
-                <p class="lead">1st european Knowledge-Guided Machine learning workshop - , Turin, Italy in ECML-PKDD 2023 Workshop</p>
-                <a class="btn btn-lg btn-light" href="#about">Start scrolling!</a>
+                <p class="lead">1st european Knowledge-Guided Machine learning workshop - September 18-22 2023, Turin, Italy</p>
+                <a class="btn btn-lg btn-light" href="#about">Submit a paper!</a>
             </div>
         </header>
         <!-- About section-->
@@ -39,35 +43,124 @@
             <div class="container px-4">
                 <div class="row gx-4 justify-content-center">
                     <div class="col-lg-8">
-                        <h2>About this page</h2>
-                        <p class="lead">This is a great place to talk about your webpage. This template is purposefully unstyled so you can use it as a boilerplate or starting point for you own landing page designs! This template features:</p>
+                        <h2>About this Workshop</h2>
+                        <p class="lead">
+                            We are glad to announce the <strong>1st european Knowledge-Guided Machine learning workshop</strong>, to be held in Turin, Italy in ECML-PKDD 2023. Both the workshop and the main conference will run in hybrid mode, with the possibility to attend in person or remotely.
+                        </p>
+                        <p>
+                            Even though machine learning (ML) algorithms are reaching surprising results in various research fields, they still have limitations when facing specific problems, especially when they are black boxes. Notably, data-driven models have met with limited success in many scientific domains. This is due to their large data requirements, inability to produce physically consistent results, and lack of generalizability to out-of-sample scenarios. Instead of a purely data-driven approach that ignores decades (sometimes centuries) of accumulated knowledge in the science domains, there is an increasing interest in Knowledge Guided Machine Learning (KGML) approaches to integrate such knowledge into the ML models. This goal can also be addressed by leveraging insights and methods from the Knowledge Representation and Reasoning (KR) field.
+                            <br>
+                            The popularity and success of ML-based systems has put issues such as explainability, bias, fairness, and sustainability. Addressing these issues naturally leads to systems in which domain knowledge and symbolic representations play a central role. On the other hand, ML also offers solutions for long-standing challenges in the field of KR, for instance related to efficient, neurally-guided, noise-tolerant and ampliative inference, knowledge acquisition, and the limitations of symbolic representations. The synergy between ML and KR has the potential to lead to new advancements in fundamental AI challenges including, but not limited to, learning symbolic generalizations from raw (multi-modal) data, using knowledge to facilitate data-efficient learning, speeding up inference, supporting interpretability of learned outcomes and integration of symbolic planning and reinforcement learning.
+                            <br><br>
+                            The workshop aims to provide researchers and practitioners with a dedicated forum for discussing new ideas and research results at the intersection of machine learning and knowledge representation.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call for papers section-->
+        <section class="bg-light" id="callforpapers">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2>Call for papers</h2>
+                        <p>
+                            The workshop invites submissions of papers that combine aspects of domain knowledge inspection and ML research, including the use of knowledge-aware methods for solving ML challenges (e.g. knowledge-guided or explainable learning), the use of ML methods for solving knowledge representation challenges (e.g. efficient inference, knowledge base completion), the integration of learning and reasoning at modeling or solving side, and the application of combined knowledge-driven ML approaches to solve real-world problems.
+                            <br><br>
+                            We welcome papers on a wide range of topics, including but not limited to:
+                        </p>
                         <ul>
-                            <li>Clickable nav links that smooth scroll to page sections</li>
-                            <li>Responsive behavior when clicking nav links perfect for a one page website</li>
-                            <li>Bootstrap's scrollspy feature which highlights which section of the page you're on in the navbar</li>
-                            <li>Minimal custom CSS so you are free to explore your own unique design options</li>
+                            <li>Novel techniques for incorporating prior knowledge into machine learning models</li>
+                            <li>Learning with structured knowledge</li>
+                            <li>Solving differential equations with machine learning in physics</li>
+                            <li>Transfer learning, multi-task learning, and domain adaptation with knowledge</li>
+                            <li>Interpretable and explainable machine learning with knowledge</li>
+                            <li>Human-in-the-loop and interactive machine learning with knowledge guidance</li>
+                            <li>Knowledge distillation and model compression</li>
+                            <li>Discovery of Scientific Laws from Data with machine learning techniques</li>
+                            <li>Learning symbolic knowledge, such as ontologies and knowledge graphs, action theories, common-sense knowledge, spatial and temporal theories, preference models and causal models</li>
+                            <li>Logic-based, logical and relational learning algorithms</li>
+                            <li>Knowledge-driven natural language understanding</li>
+                            <li>Knowledge-driven decision making</li>
+                            <li>Machine-learning driven reasoning algorithms</li>
+                            <li>Neural-symbolic learning</li>
+                            <li>Symbolic reinforcement learning</li>
+                            <li>Expressive power of learning representations</li>
+                            <li>Architectures that combine data-driven techniques and formal reasoning</li>
+                            <li>Applications of knowledge guided machine learning in real-world scenarios    </li>
                         </ul>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- Services section-->
-        <section class="bg-light" id="services">
+
+        <!-- Important dates section-->
+        <section id="importantdates">
             <div class="container px-4">
                 <div class="row gx-4 justify-content-center">
                     <div class="col-lg-8">
-                        <h2>Services we offer</h2>
-                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio velit inventore, expedita quo laboriosam possimus ea consequatur vitae, doloribus consequuntur ex. Nemo assumenda laborum vel, labore ut velit dignissimos.</p>
+                        <h2>Important dates</h2>
+                        <p>
+                            <ul>
+                                <li>Submission deadline: 12th June 2023</li>
+                                <li>Notification of acceptance: 12th July 2023</li>
+                                <li class="text-muted">(idea) Camera-ready deadline: 12st August 2023</li>
+                                <li>Workshop date: 22th September 2023</li>
+                            </ul>
+                        </p>
+                        <h2>Submission Guidelines</h2>
+                        <p>
+                            Submissions should present original results and substantial new work not currently under review or published elsewhere. This workshop accepts:
+                            <ul>
+                                <li>Research papers (up to 8 pages) including novel approaches for methodologies and algorithms in real-life applications</li>
+                                <li>Application papers (up to 6 pages) describing the exploitation of data management and analytics solutions in real-life applications</li>
+                            </ul>
+
+                            The Workshops and Tutorials will be included in a joint Post-Workshop proceeding published by <a href="https://www.springer.com/series/7899">Springer Communications in Computer and Information Science</a>, in 1-2 volumes, organised by focused scope and possibly indexed by WOS.
+                            <br>
+                            Papers authors will have the faculty to opt-in or opt-out.
+                            <br><br>
+                            Papers must follow the format: <a href="https://resource-cms.springernature.com/springer-cms/rest/v1/content/19238648/data/v6">[Paper template]</a>
+
+                        </p>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- Contact section-->
-        <section id="contact">
+
+        <!-- Program section-->
+        <section class="bg-light" id="Program">
             <div class="container px-4">
                 <div class="row gx-4 justify-content-center">
                     <div class="col-lg-8">
-                        <h2>Contact us</h2>
+                        <h2>Program</h2>
+                        <p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Program committee section-->
+        <section id="programcommittee">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2>Program committee members</h2>
+                        <p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Contact section-->
+        <section class="bg-light" id="organizers">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2>Organizers</h2>
                         <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero odio fugiat voluptatem dolor, provident officiis, id iusto! Obcaecati incidunt, qui nihil beatae magnam et repudiandae ipsa exercitationem, in, quo totam.</p>
                     </div>
                 </div>
@@ -75,7 +168,7 @@
         </section>
         <!-- Footer-->
         <footer class="py-5 bg-dark">
-            <div class="container px-4"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2023</p></div>
+            <div class="container px-4"><p class="m-0 text-center text-white">Copyright &copy; KGML 2023</p></div>
         </footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
