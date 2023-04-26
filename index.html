@@ -21,31 +21,35 @@
                         <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
                         <li class="nav-item"><a class="nav-link" href="#callforpapers">Call for papers</a></li>
                         <li class="nav-item"><a class="nav-link" href="#importantdates">Important dates</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#program">Program</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#submissions">Submissions</a></li>
                         <!-- Keynote speaker -->
-                        <li class="nav-item"><a class="nav-link" href="#programcommittee">Program committee members</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#organizers">Organizers</a></li> <!-- Meglio solo contacts? -->
+                        <!-- <li class="nav-item"><a class="nav-link" href="#programcommittee">Program committee members</a></li> -->
+                        <li class="nav-item"><a class="nav-link" href="#people">People</a></li> <!-- Meglio solo contacts? -->
+                        <li class="nav-item"><a class="nav-link" href="#program">Program</a></li>
                         <!-- <li class="nav-item"><a class="btn btn-sm btn-primary" href="">Submit a paper</a></li> -->
                     </ul>
                 </div>
             </div>
         </nav>
         <!-- Header-->
-        <header class="bg-primary bg-gradient text-white">
+        <header class="text-white" style="background: url(assets/bg1.jpg); background-repeat: no-repeat; background-size: cover">
             <div class="container px-4 text-center">
-                <h1 class="fw-bolder">Knowledge-Guided Machine learning</h1>
-                <p class="lead">1st european Knowledge-Guided Machine learning workshop - September 18-22 2023, Turin, Italy</p>
-                <a class="btn btn-lg btn-light" href="#about">Submit a paper!</a>
+                <h1 class="fw-bolder" style="text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15)">Knowledge-Guided Machine learning</h1>
+                <p class="lead" style="style="text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.40)">1st european Knowledge-Guided Machine learning workshop - September 18-22 2023, Turin, Italy</p>
+                <a class="btn btn-lg btn-light disabled" href="#about" title="Submissions will open in the following weeks">Submit a paper!</a>
             </div>
         </header>
+
         <!-- About section-->
-        <section id="about">
+        <section id="about" style="min-height: 90vh">
             <div class="container px-4">
                 <div class="row gx-4 justify-content-center">
                     <div class="col-lg-8">
-                        <h2>About this Workshop</h2>
+                        <h2 class="mb-4">About this Workshop</h2>
                         <p class="lead">
                             We are glad to announce the <strong>1st european Knowledge-Guided Machine learning workshop</strong>, to be held in Turin, Italy in ECML-PKDD 2023. Both the workshop and the main conference will run in hybrid mode, with the possibility to attend in person or remotely.
+                            <br>
+                            All the information about the conference can be found at the <a href="https://2023.ecmlpkdd.org/">official website</a>.
                         </p>
                         <p>
                             Even though machine learning (ML) algorithms are reaching surprising results in various research fields, they still have limitations when facing specific problems, especially when they are black boxes. Notably, data-driven models have met with limited success in many scientific domains. This is due to their large data requirements, inability to produce physically consistent results, and lack of generalizability to out-of-sample scenarios. Instead of a purely data-driven approach that ignores decades (sometimes centuries) of accumulated knowledge in the science domains, there is an increasing interest in Knowledge Guided Machine Learning (KGML) approaches to integrate such knowledge into the ML models. This goal can also be addressed by leveraging insights and methods from the Knowledge Representation and Reasoning (KR) field.
@@ -54,20 +58,24 @@
                             <br><br>
                             The workshop aims to provide researchers and practitioners with a dedicated forum for discussing new ideas and research results at the intersection of machine learning and knowledge representation.
                         </p>
+                        <a href="https://2023.ecmlpkdd.org/">
+                            <img src="https://2023.ecmlpkdd.org/wp-content/uploads/2022/11/cropped-thumbnail_logo-1.png" alt="ECML-PKDD Logo">
+                        </a>
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- Call for papers section-->
-        <section class="bg-light" id="callforpapers">
+        <section class="bg-light" id="callforpapers" style="min-height: 90vh">
             <div class="container px-4">
                 <div class="row gx-4 justify-content-center">
                     <div class="col-lg-8">
-                        <h2>Call for papers</h2>
-                        <p>
+                        <h2 class="mb-4">Call for papers</h2>
+                        <p class="lead">
                             The workshop invites submissions of papers that combine aspects of domain knowledge inspection and ML research, including the use of knowledge-aware methods for solving ML challenges (e.g. knowledge-guided or explainable learning), the use of ML methods for solving knowledge representation challenges (e.g. efficient inference, knowledge base completion), the integration of learning and reasoning at modeling or solving side, and the application of combined knowledge-driven ML approaches to solve real-world problems.
-                            <br><br>
+                        </p>
+                        <p>
                             We welcome papers on a wide range of topics, including but not limited to:
                         </p>
                         <ul>
@@ -96,47 +104,114 @@
         </section>
 
         <!-- Important dates section-->
-        <section id="importantdates">
+        <section id="importantdates" style="min-height: 90vh">
             <div class="container px-4">
                 <div class="row gx-4 justify-content-center">
                     <div class="col-lg-8">
-                        <h2>Important dates</h2>
-                        <p>
-                            <ul>
-                                <li>Submission deadline: 12th June 2023</li>
-                                <li>Notification of acceptance: 12th July 2023</li>
-                                <li class="text-muted">(idea) Camera-ready deadline: 12st August 2023</li>
-                                <li>Workshop date: 22th September 2023</li>
-                            </ul>
+                        <h2 class="mb-4">Important dates</h2>
+                        <p class="lead">
+                            The deadlines are strict and no extensions will be given. All deadlines are 11:59PM UTC-12:00 ("anywhere on Earth").
                         </p>
-                        <h2>Submission Guidelines</h2>
                         <p>
-                            Submissions should present original results and substantial new work not currently under review or published elsewhere. This workshop accepts:
                             <ul>
-                                <li>Research papers (up to 8 pages) including novel approaches for methodologies and algorithms in real-life applications</li>
-                                <li>Application papers (up to 6 pages) describing the exploitation of data management and analytics solutions in real-life applications</li>
+                                <li><strong>Submission deadline:</strong> 12th June 2023</li>
+                                <li><strong>Notification of acceptance:</strong> 12th July 2023</li>
+                                <li><strong>(tentative) Camera-ready deadline:</strong> 19th July 2023</li>
+                                <li><strong>Workshop date:</strong> 22th September 2023</li>
                             </ul>
-
-                            The Workshops and Tutorials will be included in a joint Post-Workshop proceeding published by <a href="https://www.springer.com/series/7899">Springer Communications in Computer and Information Science</a>, in 1-2 volumes, organised by focused scope and possibly indexed by WOS.
-                            <br>
-                            Papers authors will have the faculty to opt-in or opt-out.
-                            <br><br>
-                            Papers must follow the format: <a href="https://resource-cms.springernature.com/springer-cms/rest/v1/content/19238648/data/v6">[Paper template]</a>
-
                         </p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Program section-->
-        <section class="bg-light" id="Program">
+        <!-- Submissions section-->
+        <section class="bg-light" id="submissions"  style="min-height: 90vh">
             <div class="container px-4">
                 <div class="row gx-4 justify-content-center">
                     <div class="col-lg-8">
-                        <h2>Program (random stuff)</h2>
+                        <h2 class="mt-5 mb-4">Submission Guidelines</h2>
+                        <p>
+                            Submissions should present original results and substantial new work not currently under review or published elsewhere. This workshop accepts:
+                        </p>
+                        
+                        <ul>
+                            <li>
+                                <strong>Short papers</strong> (up to 6 pages including references) describing early-stage original research results.
+                            </li>
+                            <li>
+                                <strong>Long papers</strong> (up to 8 pages including references) describing original research results, including new algorithms, empirical studies, or in-depth comparisons with existing approaches.
+                            </li>
+                        </ul>
+                        <p>
+                            Authors of recently published papers in top-tier conferences and journals are invited to submit their work to the workshop. The authors should clearly indicate in the submission form the venue where the paper has been published or is under review.
+                            You are asked to submit a <strong>2-page extended abstract</strong> (including references) in PDF format. Extended abstracts will not be included in the proceedings, but will be made available on the workshop website.
+                        </p>
+                        <p>
+                            All submissions must be written in English and formatted according to the Springer LNCS style <a href="https://resource-cms.springernature.com/springer-cms/rest/v1/content/19238648/data/v6">[Paper template]</a>. The submissions must be in PDF format.
+                        
+                        <p>
+                            The Workshops and Tutorials will be included in a joint Post-Workshop proceeding published by <a href="https://www.springer.com/series/7899">Springer Communications in Computer and Information Science</a>, in 1-2 volumes, organised by focused scope and possibly indexed by WOS.
+                            <br>
+                            Papers authors will have the faculty to opt-in or opt-out.
+                            <br><br>
+                            <div class="d-flex flex-column justify-content-center mx-5">
+                                <em>Submissions will open in the following weeks</em>
+                                <a class="btn btn-primary btn-lg disabled" href="https://easychair.org/conferences/?conf=ekaw2023">Submit your paper here</a>
+                            </div>
+<!--                             
+                            <br><br>
+                            
+                            Papers must be submitted in PDF format through the <a href="https://easychair.org/conferences/?conf=ekaw2023">EasyChair system</a>. -->
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Program committee section-->
+        <section id="people"  style="min-height: 90vh">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2 class="mb-4">Organizers</h2>
+                        <p class="lead">
+                            You can contact the organizers at <a href="mailto:kgml2023@googlegroups.com">kgml2023@googlegroups.com</a>
+
+                        </p>
+                        <ul>
+                            <li class="lead"><strong class="text-decoration-underline">Anuj Karpatne</strong> - Virginia Tech, USA</li>
+                            <li class="lead"><strong class="text-decoration-underline">Lia Morra</strong> - Politecnico di Torino, Italy</li>
+                            <li class="lead"><strong class="text-decoration-underline">Simone Monaco</strong> - Politecnico di Torino, Italy</li>
+                            <li class="lead"><strong class="text-decoration-underline">Daniele Apiletti</strong> - Politecnico di Torino, Italy</li>
+                        </ul>
+                        <br><br>
+                        <h2 class="mb-4">Program committee members</h2>
+                        <p class="lead">
+                            The program committee is still being formed. The list of members will be available here.
+                        </p>
+                        <!-- <ul>
+                                <li>Arka Daw - Virginia Tech</li>
+                                <li>Mohannad Elhamod - Virginia Tech</li>
+                                <li>Jared Willard - University of Minnesota</li>
+                                <li>Xiaowei Jia - University of Pittsburgh</li>
+                                <li>Sifan Wang - University of Pennsylvania</li>
+                                <li>Laura Von Rueden - Fraunhofer IAIS, Fraunhofer Center for Machine Learning</li>
+                        </ul> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Program section-->
+        <section class="bg-light" id="program" style="min-height: 90vh">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2>Program</h2>
                         <br>
-                        <div class="card">
+                        <p class="lead">The program schedule is not available. It will be available soon.</p>
+                        <!-- <div class="card">
                             <div class="card-header">
                               Schedule (Italian time)
                             </div>
@@ -158,54 +233,15 @@
                                   </tbody>
                               </table>
                             </div>
-                          </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Program committee section-->
-        <section id="programcommittee">
-            <div class="container px-4">
-                <div class="row gx-4 justify-content-center">
-                    <div class="col-lg-8">
-                        <h2>Program committee members</h2>
-                        <h3>Organizers</h3>
-                        <strong>TODO: add some contacts?</strong>
-                        <ul>
-                            <li>Anuj Karpatne - Virginia Tech, USA</li>
-                            <li>Lia Morra - Politecnico di Torino, Italy</li>
-                            <li>Simone Monaco - Politecnico di Torino, Italy</li>
-                            <li>Daniele Apiletti - Politecnico di Torino, Italy</li>
-                        </ul>
-                        <h3>Program committee <font color="red">(tentative)</font></h3>
-                        <ul>
-                                <li>Arka Daw - Virginia Tech</li>
-                                <li>Mohannad Elhamod - Virginia Tech</li>
-                                <li>Jared Willard - University of Minnesota</li>
-                                <li>Xiaowei Jia - University of Pittsburgh</li>
-                                <li>Sifan Wang - University of Pennsylvania</li>
-                                <li>Laura Von Rueden - Fraunhofer IAIS, Fraunhofer Center for Machine Learning</li>
-                        </ul>
+                        </div> -->
                     </div>
                 </div>
             </div>
         </section>
         
-        <!-- Contact section-->
-        <section class="bg-light" id="organizers">
-            <div class="container px-4">
-                <div class="row gx-4 justify-content-center">
-                    <div class="col-lg-8">
-                        <h2>Organizers</h2>
-                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero odio fugiat voluptatem dolor, provident officiis, id iusto! Obcaecati incidunt, qui nihil beatae magnam et repudiandae ipsa exercitationem, in, quo totam.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
         <!-- Footer-->
         <footer class="py-5 bg-dark">
-            <div class="container px-4"><p class="m-0 text-center text-white">Copyright &copy; KGML 2023</p></div>
+            <div class="container px-4"><p class="m-0 text-center text-white">Copyright &copy; KGML 2023<br><a class="text-white" href="mailto:kgml2023@googlegroups.com">kgml2023@googlegroups.com</a></p></div>
         </footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
